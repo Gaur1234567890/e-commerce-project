@@ -1,0 +1,349 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eeee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(190, 170, 170);
+}
+
+nav.logo {
+    margin-left: 22px;
+    font-size: 24px;
+}
+
+
+
+ul {
+    margin-right: 45px;
+    margin-top: 7px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-inline:22px;
+    font-size: 20px;
+}
+
+ul li i {
+    font-size: 22px;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color:gray;
+    cursor: pointer;
+
+}
+
+.main {
+   
+    
+    display: flex;
+    justify-content: space-around;
+  
+}
+.main img{
+   justify-content: space-around;
+   padding: 80px;
+   margin-top: 25px;
+}
+
+.main .mainText {
+    margin-top: 144px;
+
+}
+
+.mainText h1 {
+    font-size: 64px;
+
+}
+
+.mainText .top {
+    color: rgb(99, 107, 107);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: rgb(182, 192, 192);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+
+.mainText p{
+    margin-top: 12px;
+}
+
+.mainText button:hover {
+    border: 3px solid aqua;
+    background: transparent;
+    color: rgb(2, 121, 121);
+}
+
+.head h1 {
+    text-align:center;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+.head span {
+    color:black ;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-inline: 11px;
+
+
+}
+
+.crd img {
+    width: 65%;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.crdText {
+    margin-left: 20px;
+    padding: 16px;
+}
+
+.crdText button {
+    width: 100px;
+    height: 33px;
+    border: none;
+    background-color: rgb(17, 161, 161);
+    color: white;
+    font-size: 19px;
+    margin-top: 11px;
+}
+
+
+.crdText i {
+    color: rgb(55, 92, 92);
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    margin-inline: 22px;
+    border-radius: 11px;
+    margin-bottom: 11px;
+}
+.blog:hover{
+    transition: 0.4s;
+    width: 520px;
+    height: 320px;
+}
+.blog img {
+    width: 55%;
+    padding: 22px;
+}
+
+.blogtext {
+    padding: 5px;
+    margin-top: 75px;
+   
+}
+
+.blogtext a {
+    width: 10px;
+    padding: 5px;
+    height: 18px;
+    background-color: rgb(4, 37, 37);
+    color: white;
+    font-size: 25px;
+    border-radius: 3px;
+    position: relative;
+    top: 33px;
+    margin-left: 50px;
+}
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(9, 9, 107);
+padding: 33px;
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+.inp button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(2, 173, 173);
+    color: white;
+    border: none;
+
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top: 11px;
+}
+
+/* Aboutus */
+.about{
+    display: none;
+}
+.aboutus{
+    background-color: rgb(41, 41, 211);
+    color: white;
+    padding: 50px;
+    font-size: 22px;
+    margin-top: 2%;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: white;
+    padding: 33px;
+    margin-left: 20%;
+margin-top: 5%;
+
+}
+.me img{
+    width: 54%;
+}
+/* contact */
+
+.contact{
+    
+        display: none;
+  
+}
+.contactus{
+    background-color: rgb(41, 41, 211);
+    color: white;
+    padding: 50px;
+    font-size: 19px;
+    margin-top: 2%;
+
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    background-color: white;
+    margin-left: 10%;
+    
+}
+.contactme img{
+    width: 55%;
+}
+.contactText{
+    padding: 22px;
+    width: 600px;
+
+}
+.contactText p{
+    margin-top: 12px;
+}
+.form{
+    text-align: center;
+    margin-top: 5%;
+    padding: 22px;
+}
+.form input{
+    width: 300px;
+    padding: 5px;
+    height: 27px;
+    margin-top: 11px;
+}
+.form button{
+    width: 300px;
+    height: 36px;
+    background-color: rgb(2, 94, 94);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+
+/* cart */
+
+
+.cart{
+    display: flex;
+    justify-content: center;
+     display: none;
+     margin-top: 33px;
+     margin-bottom: 22px;
+}
+.cartText{
+    padding: 22px;
+    margin-top: 22px;
+}
+.cartText p{
+    margin-top: 12px;
+}
+.cartText h2{
+    margin-top: 11px;
+}
+.cartText .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(212, 143, 16);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+
+}
+.cartText .back{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(29, 156, 156);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+
+}
